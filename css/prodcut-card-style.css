@@ -1,0 +1,109 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+
+* {
+    background-color: black;
+    font-family: "Roboto", sans-serif, Tahoma;
+    --font-color-primary: Black;
+    --font-color-secondary: lightgrey;
+    --color-available1:red;
+    --color-available2: black;
+    --color-availaable3: beige;
+}
+
+.product-card {
+    margin-top: 120px;
+    margin-bottom: 20px;
+    margin: 600px;
+    width: 800px;
+    height: 500px;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    box-sizing: border-box;
+}
+
+.product-card img {
+    width: 400px;
+    height: 500px;
+}
+
+.product-card .right-info-col {
+    background-color: white;
+    padding:20px 20px 20px 20px;
+}
+
+.product-card .right-info-col h3 {
+    font-size: 32px;
+    color: var(--font-color-primary);
+    background-color: white;
+    margin-bottom: 15px;
+    margin-top: 0;
+}
+
+.product-card .right-info-col h5 {
+    background-color: white;
+    font-size: 18px;
+    margin-top: 0;
+    margin-bottom: 20px;
+    color: lightgray;
+}
+
+.product-card .right-info-col p{
+    margin-top: 0;
+    margin-bottom: 20px;
+    padding-left: 50px;
+    background-color: white;
+    color: var(--color-available2);
+}
+
+.available-colors {
+    margin-top: 20px;
+    margin-bottom: 0;
+    padding-left: 50px;
+    background-color: white;
+    font-size: 14px;
+}
+
+.available-colors span{
+    background-color: white;
+    margin-right: 5px;
+    width: 20px;
+    height: 20px;
+}
+
+.black-color-container {
+    color: black;
+}
+
+.red-color-container{
+    color: red;
+}
+
+.white-color-container{
+    color: beige;
+}
+
+.price{
+    margin-top: 0;
+    margin-bottom: 20px;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    box-sizing: border-box;
+    padding-bottom: 5px;
+    width: 100%;
+}
+
+.price h4 {
+    font-size: 32px;
+    background-color: white;
+}
+
+.price .buy-btn {
+    background-color: black;
+    color: white;
+    border-radius: 10%;
+    width: 150px;
+    height: 40px;
+}
